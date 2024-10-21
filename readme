@@ -1,0 +1,34 @@
+terraform/
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   │   └── variables.tf
+│   ├── ec2-app/
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   │   └── variables.tf
+│   ├── ec2-db/           
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   │   └── variables.tf
+├── environments/
+│   ├── dev/
+│   │   ├── main.tf
+│   │   ├── backend.tf
+│   │   └── variables.tf
+│   ├── staging/
+│   │   ├── main.tf
+│   │   ├── backend.tf
+│   │   └── variables.tf
+│   └── prod/
+│       ├── main.tf
+│       ├── backend.tf
+│       └── variables.tf
+├── providers.tf
+├── main.tf
+├── outputs.tf
+├── variables.tf
+└── terraform.tfvars
+
+
